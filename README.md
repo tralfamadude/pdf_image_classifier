@@ -8,7 +8,7 @@ separate from pdf_trio is because it is useful stand-alone.
 Tensorflow-hub is being used so that pre-trained models curated there can be obtained easily.
 
 ## Python Prep
-Clone the tf_image_classifier companion repo, and set up the python env.
+Clone the this repo, and set up the python env.
 (We are sssuming conda envs are in use here, adapt as needed.) 
 ```
 git clone https://github.com/tralfamadude/pdf_image_classifier
