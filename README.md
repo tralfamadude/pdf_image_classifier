@@ -3,7 +3,7 @@
 ## Overview
 This image classifier is based on an example from Google Tensorflow. It includes information on using 
 tensorflow serving to do inference in production. The reason for packaging it up in it's own repo 
-separate from research-pub is because it is useful stand-alone.  
+separate from pdf_trio is because it is useful stand-alone.  
 
 Tensorflow-hub is being used so that pre-trained models curated there can be obtained easily.
 
@@ -11,8 +11,8 @@ Tensorflow-hub is being used so that pre-trained models curated there can be obt
 Clone the tf_image_classifier companion repo, and set up the python env.
 (We are sssuming conda envs are in use here, adapt as needed.) 
 ```
-git clone git@git.archive.org:Baclace/tf_image_classifier.git
-cd tf_image_classifier
+git clone https://github.com/tralfamadude/pdf_image_classifier
+cd pdf_image_classifier
 
 conda create --name tf_hub python=3.7 
 conda activate tf_hub
